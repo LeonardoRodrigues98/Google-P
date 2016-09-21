@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Google</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script>
+				/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function Function() {
+		    document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown menu if the user clicks outside of it
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+
+		    var dropdowns = document.getElementsByClassName("dropdown-content");
+		    var i;
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
+		      if (openDropdown.classList.contains('show')) {
+		        openDropdown.classList.remove('show');
+		      }
+		    }
+		  }
+		}
+	</script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="dropdown"  >
+				<a href="#"> Gmail </a>
+				<a href="#"> Imagens </a>
+			
+				<button onclick="Function()" class="dropbtn">Google apps(Dropdown)</button>
+			
+				<div id="myDropdown" class="dropdown-content">
+		   			<a href="#">Link 1</a>
+		  			<a href="#">Link 2</a>
+		    		<a href="#">Link 3</a>
+	 			</div>
+	 		</div>
+		</nav>
+	</header>
+		<div class="container">
+
+			<div class="google">
+				<!--<h1>
+					<p class="blue">G</p>
+					<p class="red">o</p>
+					<p class="yellow">o</p>
+					<p class="blue">g</p>
+					<p class="green">l</p>
+					<p class="red">e</p>
+				</h1>-->
+				<img src="img/google.png" alt="Google" >
+			</div>
+			<div id="brasil">
+				<h2>Brasil</h2>
+			</div>
+			<div class="search">
+				<label for="search">
+					<p>
+						<input type="search" name="busca" id="busca" size="80">
+					</p>
+				</label>
+			</div>
+			<div id="botao-caixa">
+				<button>Pesquisa Google</button><button>Estou com sorte</button>
+			</div>
+		</div>
+		
+		
+		
+	</main>
+
+		<footer id="footer">
+			<span class="esquerda">
+				<a href="#"> Publicidade </a>
+				<a href="#"> Negocios </a>
+				<a href="#"> Sobre </a>
+			</span>
+			<span class="direita">
+				<a href="#"> Privacidade </a>
+				<a href="#"> Termos </a>
+				<a href="#"> Configurações</a>
+			</span>
+		</footer>
+</body>
+</html>

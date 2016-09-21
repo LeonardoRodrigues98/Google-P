@@ -1,0 +1,169 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body{
+	font-family:'roboto',verdana;
+
+}
+h1>p{
+	/*width: -100px;*/
+	display: inline;
+	
+}
+p>input{
+	border:1px solid #3399ff;
+	padding:14px;
+}
+label p{
+	text-align: center;
+}
+#brasil{
+	color:#4d94ff;
+	/*margin-left: 40%;*/
+	margin-top: -40px;
+	text-align: center;
+	margin-left: +200px;
+	font-size: 11px;
+}
+#botao-caixa{
+	text-align: center;
+}
+
+.google{
+	text-align: center;
+	
+}
+
+.blue{
+	color: #4d94ff;
+}
+.red{
+	color: #fa381d;
+}
+.yellow{
+	color: #ffcc00;
+}
+.green{
+	color: #009933;
+}
+header nav{
+	float:right;
+}
+.container{
+	/*margin-left:30%;*/
+	padding:10%;
+	padding-bottom:160px;
+	text-align: center;
+	padding-top: 200px;
+}
+nav a{
+	text-decoration: none;
+	color:black;
+	font-size: 13px;
+}
+.dropdown button{
+    /*position: relative;/
+    display: inline-block;
+    /*width: 100%;*/
+	/*margin-right:30%;*/
+	background-color: white;	
+	/*box-shadow: 0px 0px 10px black;*/
+	/*padding-left:40%;*/
+}
+.dropbtn{
+	display: inline;
+}
+/*IMPORTANTE  	Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/*IMPORTANTE 	Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/*IMPORTANTE Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	/*background-color: #f1f1f1;*/
+}
+ /*IMPORTANTE Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+	display:block;
+}
+nav a:hover{
+	text-decoration: underline;
+	color:black;
+}
+button{
+	border:0px;
+	background-color: white;
+	color:gray;
+	padding: 11px;
+	margin-top: 15px;
+}
+button:hover{
+	border:1px solid #c1bebe;
+	background-color: white;
+	color:#343232;
+	padding: 10px;
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+}
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:white;
+   border:1px solid #c1bebe;
+}
+#grid{
+	height:25px ;width:25px ;
+	
+}
+
+.esquerda{
+	text-align: left;	
+	display: inline;
+}
+.direita{
+	float:right;
+
+}
+.esquerda a{
+	text-decoration: none;
+	color:gray;
+	font-size: 13px;
+	padding:15px;
+	margin-top: 10px;
+
+}
+.direita a{
+	text-decoration: none;
+	color:gray;
+	font-size: 13px;
+	padding:15px;
+	margin-top: 10px;
+}
+.esquerda a:hover{
+	text-decoration: underline;
+	color:gray;
+	font-size: 15px;
+	padding:15px;
+
+}
+.direita a:hover{
+	text-decoration:underline;
+	color:gray;
+	font-size: 15px;
+	padding:15px;
+
+}
